@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-tab1',
@@ -12,8 +14,7 @@ export class Tab1Page {
     console.log(this.todo)
   }
 
-  constructor() {}
+  constructor(){}
 
 
-  
 }
